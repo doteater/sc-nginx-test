@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: nginx-test-cert
+  namespace: default
+spec:
+  dnsNames:
+    - "nginx.sentracam.net"
+  secretName: nginx-test-tls
+  issuerRef:
+    name: letsencrypt-cluster-issuer
+    kind: ClusterIssuer
