@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   dnsNames:
-    - "nginx.sentracam.net"
+    - "nginx1.sentracam.net"
   secretName: nginx-test-tls
   issuerRef:
     name: letsencrypt-cluster-issuer
