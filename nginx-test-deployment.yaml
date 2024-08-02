@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-nginx
-  name: nginx
+  name: nginx-test
   namespace: default
 spec:
   replicas: 1
