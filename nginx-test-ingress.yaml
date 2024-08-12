@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx-multi
   rules:
-    - host: nginx1.sentracam.net
+    - host: nginx.sentracam.net
       http:
         paths:
           - backend:
