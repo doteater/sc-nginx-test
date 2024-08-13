@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: nginx3.sentracam.net
+    - host: mynginxtest.sentracam.net
       http:
         paths:
           - backend:
@@ -18,5 +18,5 @@ spec:
             pathType: Prefix
   tls:
     - hosts:
-        - nginx3.sentracam.net
+        - mynginxtest.sentracam.net
       secretName: nginx-test-tls
